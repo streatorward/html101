@@ -1,0 +1,75 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+nav {
+    background-color: white;
+    display: flex;  
+    display: -webkit-flex; 
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: .5em;
+    font-family: "Arial";
+}
+
+nav a{
+    margin: .2em 1em 0px 1em;
+    color: darkcyan;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.wrapper {
+    background-color: #ffffff
+}
+
+h1 { 
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
+h2, h3 {
+    color: black;
+    font-size: 20px;
+}
+
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: white
+}
+
+main{
+    flex: 2;
+    margin: 1em;
+}
+
+aside{
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+}

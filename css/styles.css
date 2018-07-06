@@ -68,7 +68,7 @@ aside{
     margin: 1em;
 }
 
-footer {
+footer{
     background-color: darkcyan;
     color: white;
     text-align: center;
@@ -76,11 +76,12 @@ footer {
 
 .flex-item{
     background-color: hotpink;
-    width: 30%
-    margin: 1em;
+    width: 100%
+    margin: 3em;
     text-align: center;
 }
 
 .section-img{
     margin: 0 auto;
+    width: 100%;
 }

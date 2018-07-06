@@ -7,11 +7,11 @@ html {
 }
 
 body {
-    background-color: darkcyan;
+    background-color: rgb(136, 136, 136);
 }
 
 nav {
-    background-color: white;
+    background-color:black;
     display: flex;  
     display: -webkit-flex; 
     width: 100%;
@@ -23,7 +23,7 @@ nav {
 
 nav a{
     margin: .2em 1em 0px 1em;
-    color: darkcyan;
+    color: rgb(136, 136, 136);
 }
 
 nav a:hover {
@@ -36,7 +36,7 @@ nav a:hover {
 
 h1 { 
     text-transform: capitalize;
-    color: white;
+    color: rgb(238, 216, 15);
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ aside{
 }
 
 footer {
-    background-color: lightcoral;
+    background-color: darkcyan;
     color: white;
     text-align: center;
 }

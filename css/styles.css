@@ -73,3 +73,14 @@ footer {
     color: white;
     text-align: center;
 }
+
+.flex-item{
+    background-color: hotpink;
+    width: 30%
+    margin: 1em;
+    text-align: center;
+}
+
+.section-img{
+    margin: 0 auto;
+}
